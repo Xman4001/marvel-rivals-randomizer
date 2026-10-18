@@ -59,35 +59,38 @@ function shuffled(values, random) {
   return result;
 }
 
-/** Randomize each player's role, then match unique heroes across both teams.
+/** Randomize roles and keep heroes unique within each team.
+ * Opposing teams may share any hero, including Deadpool, in any supported role.
  * Locked picks carry their assigned role so they keep that role and position.
  */
-export function generateMatch(payload, compositions, { locked = [], excludedIds = [], random = randomUnit } = {}) {
+export function generateMatch(payload, compositions, { locked = [], excludedIds = [], excludedTeam = null, random = randomUnit } = {}) {
   const roster = normalizeRoster(payload);
   const slots = compositionSlots(compositions);
   const byId = new Map(roster.map(hero => [hero.id, hero]));
   const excluded = new Set(excludedIds);
-  const pools = Object.fromEntries(ROLES.map(role => [role, roster.filter(hero => hero.roles.includes(role) && !excluded.has(hero.id))]));
+  const isExcluded = (team, heroId) => excluded.has(heroId) && (excludedTeam === null || excludedTeam === team);
+  const pools = Object.fromEntries(ROLES.map(role => [role, roster.filter(hero => hero.roles.includes(role))]));
   const used = new Set();
   const assignments = new Map();
   const key = slot => `${slot.team}:${slot.index}`;
+  const heroKey = (team, heroId) => `${team}:${heroId}`;
   const remaining = compositions.map(composition => ({ ...composition }));
 
   for (const lock of locked) {
     const slot = slots.find(item => item.team === lock.team && item.index === lock.index);
     const hero = byId.get(lock.heroId);
-    if (!slot || !hero || !ROLES.includes(lock.role) || !hero.roles.includes(lock.role) || excluded.has(hero.id)) {
+    if (!slot || !hero || !ROLES.includes(lock.role) || !hero.roles.includes(lock.role) || isExcluded(slot.team, hero.id)) {
       throw new Error('A locked pick no longer fits the roster or composition. Unlock it and try again.');
     }
-    if (used.has(hero.id) || assignments.has(key(slot))) {
-      throw new Error('Locked picks must be unique across both teams.');
+    if (used.has(heroKey(slot.team, hero.id)) || assignments.has(key(slot))) {
+      throw new Error('Locked picks must be unique within each team, regardless of role.');
     }
     if (remaining[slot.team][lock.role] < 1) {
       throw new Error(`Locked picks exceed the ${lock.role} count for team ${slot.team + 1}. Unlock a pick or adjust the composition.`);
     }
     slot.role = lock.role;
     remaining[slot.team][lock.role]--;
-    used.add(hero.id);
+    used.add(heroKey(slot.team, hero.id));
     assignments.set(key(slot), hero);
   }
 
@@ -99,18 +102,19 @@ export function generateMatch(payload, compositions, { locked = [], excludedIds 
       .forEach((slot, index) => { slot.role = roles[index]; });
   }
 
-  // Each hero may hold one slot. Augmenting paths repair an earlier assignment
-  // when a multi-role hero is the only fit for a later slot; no retry limit is needed.
+  // Each hero may hold one slot per team, regardless of the assigned role.
+  // Augmenting paths repair earlier assignments for multi-role heroes.
   const unlocked = shuffled(slots.filter(slot => !assignments.has(key(slot))), random);
-  const candidates = new Map(unlocked.map(slot => [key(slot), shuffled(pools[slot.role].filter(hero => !used.has(hero.id)), random)]));
+  const candidates = new Map(unlocked.map(slot => [key(slot), shuffled(pools[slot.role].filter(hero => !used.has(heroKey(slot.team, hero.id)) && !isExcluded(slot.team, hero.id)), random)]));
   const owner = new Map();
   function assign(slot, seen) {
     for (const hero of candidates.get(key(slot))) {
-      if (seen.has(hero.id)) continue;
-      seen.add(hero.id);
-      const previous = owner.get(hero.id);
+      const pickKey = heroKey(slot.team, hero.id);
+      if (seen.has(pickKey)) continue;
+      seen.add(pickKey);
+      const previous = owner.get(pickKey);
       if (!previous || assign(previous, seen)) {
-        owner.set(hero.id, slot);
+        owner.set(pickKey, slot);
         assignments.set(key(slot), hero);
         return true;
       }
@@ -119,7 +123,7 @@ export function generateMatch(payload, compositions, { locked = [], excludedIds 
   }
   for (const slot of unlocked) {
     if (!assign(slot, new Set())) {
-      throw new Error(`Not enough unique heroes for these roles. Reduce a role count or unlock some picks.`);
+      throw new Error('Not enough unique heroes within a team for these roles. Reduce a role count or unlock some picks.');
     }
   }
   return [0, 1].map(team => slots.filter(slot => slot.team === team).map(slot => ({ role: slot.role, hero: assignments.get(key(slot)) })));
