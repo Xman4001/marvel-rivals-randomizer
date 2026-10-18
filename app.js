@@ -71,7 +71,7 @@ function updateUI() {
   $('#reset-button').disabled = state.rolling;
   const picks = state.match?.reduce((sum, team) => sum + team.length, 0);
   $('#match-label').textContent = state.match
-    ? `MATCH ${String(state.rolls).padStart(3, '0')} · ${picks} UNIQUE PICKS`
+    ? `MATCH ${String(state.rolls).padStart(3, '0')} · ${picks} PICKS`
     : state.ready ? 'YOUR COMPOSITION. YOUR NEXT MATCH.' : 'GETTING YOUR ROSTER READY';
   const sources = { live: 'Live GitHub roster', bundled: 'Bundled roster', cached: 'Saved roster' };
   $('#roster-status').textContent = state.roster.length ? `${sources[state.source]} · ${state.roster.length} heroes` : 'Loading hero roster…';
@@ -242,7 +242,7 @@ function rerollOne(team, index) {
   const previous = state.match[team][index];
   const locked = state.match.flatMap((picks, t) => picks.flatMap((pick, i) => t === team && i === index ? [] : [{ team: t, index: i, heroId: pick.hero.id, role: pick.role }]));
   try {
-    state.match = generateMatch(state.roster, state.compositions, { locked, excludedIds: [previous.hero.id] });
+    state.match = generateMatch(state.roster, state.compositions, { locked, excludedIds: [previous.hero.id], excludedTeam: team });
     state.rolls++;
     showError();
     renderLineups();
