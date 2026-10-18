@@ -1,0 +1,492 @@
+{
+  "heroes": [
+    {
+      "id": "black-cat",
+      "name": "Black Cat",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "black-cat.png",
+      "enabled": true
+    },
+    {
+      "id": "black-panther",
+      "name": "Black Panther",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "black-panther.png",
+      "enabled": true
+    },
+    {
+      "id": "black-widow",
+      "name": "Black Widow",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "black-widow.png",
+      "enabled": true
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "blade.png",
+      "enabled": true
+    },
+    {
+      "id": "cyclops",
+      "name": "Cyclops",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "cyclops.png",
+      "enabled": true
+    },
+    {
+      "id": "daredevil",
+      "name": "DareDevil",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "daredevil.png",
+      "enabled": true
+    },
+    {
+      "id": "deadpool",
+      "name": "DeadPool",
+      "roles": [
+        "Duelist",
+        "Vanguard",
+        "Strategist"
+      ],
+      "image": "deadpool.png",
+      "enabled": true
+    },
+    {
+      "id": "elsa-bloodstone",
+      "name": "Elsa Bloodstone",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "elsa-bloodstone.png",
+      "enabled": true
+    },
+    {
+      "id": "gorr",
+      "name": "Gorr",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "gorr.png",
+      "enabled": true
+    },
+    {
+      "id": "hawkeye",
+      "name": "Hawkeye",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "hawkeye.png",
+      "enabled": true
+    },
+    {
+      "id": "hela",
+      "name": "Hela",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "hela.png",
+      "enabled": true
+    },
+    {
+      "id": "human-torch",
+      "name": "Human Torch",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "human-torch.png",
+      "enabled": true
+    },
+    {
+      "id": "iron-fist",
+      "name": "Iron Fist",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "iron-fist.png",
+      "enabled": true
+    },
+    {
+      "id": "iron-man",
+      "name": "Iron Man",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "iron-man.png",
+      "enabled": true
+    },
+    {
+      "id": "magik",
+      "name": "Magik",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Magik.png",
+      "enabled": true
+    },
+    {
+      "id": "mr-fantastic",
+      "name": "Mr Fantastic",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Mr Fantastic.png",
+      "enabled": true
+    },
+    {
+      "id": "moon-knight",
+      "name": "Moon Knight",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "moon-knight.png",
+      "enabled": true
+    },
+    {
+      "id": "namor",
+      "name": "Namor",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Namor.png",
+      "enabled": true
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Phoenix.png",
+      "enabled": true
+    },
+    {
+      "id": "psylocke",
+      "name": "Psylocke",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "psylocke.png",
+      "enabled": true
+    },
+    {
+      "id": "scarlet-witch",
+      "name": "Scarlet Witch",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Scarlet Witch.png",
+      "enabled": true
+    },
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "spider-man.png",
+      "enabled": true
+    },
+    {
+      "id": "squirrel-girl",
+      "name": "Squirrel Girl",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "squirrel-girl.png",
+      "enabled": true
+    },
+    {
+      "id": "star-lord",
+      "name": "Star-Lord",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "star-lord.png",
+      "enabled": true
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "storm.png",
+      "enabled": true
+    },
+    {
+      "id": "punisher",
+      "name": "Punisher",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "punisher.png",
+      "enabled": true
+    },
+    {
+      "id": "winter-soldier",
+      "name": "Winter Soldier",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "Winter Soldier.png",
+      "enabled": true
+    },
+    {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "roles": [
+        "Duelist"
+      ],
+      "image": "wolverine.png",
+      "enabled": true
+    },
+    {
+      "id": "angela",
+      "name": "Angela",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "angela.png",
+      "enabled": true
+    },
+    {
+      "id": "hulk",
+      "name": "Hulk",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "hulk.png",
+      "enabled": true
+    },
+    {
+      "id": "captain-america",
+      "name": "Captain America",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "captain-america.png",
+      "enabled": true
+    },
+    {
+      "id": "devil-dino",
+      "name": "Devil Dino",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "Devil Dino.png",
+      "enabled": true
+    },
+    {
+      "id": "doctor-strange",
+      "name": "Doctor Strange",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "doctor-strange.png",
+      "enabled": true
+    },
+    {
+      "id": "emma-frost",
+      "name": "Emma Frost",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "emma-frost.png",
+      "enabled": true
+    },
+    {
+      "id": "groot",
+      "name": "Groot",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "groot.png",
+      "enabled": true
+    },
+    {
+      "id": "magneto",
+      "name": "Magneto",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "magneto.png",
+      "enabled": true
+    },
+    {
+      "id": "peni-parker",
+      "name": "Peni Parker",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "Peni Parker.png",
+      "enabled": true
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "rogue.png",
+      "enabled": true
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "thor.png",
+      "enabled": true
+    },
+    {
+      "id": "the-hood",
+      "name": "The Hood",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "the-hood.png",
+      "enabled": true
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "venom.png",
+      "enabled": true
+    },
+    {
+      "id": "the-thing",
+      "name": "The Thing",
+      "roles": [
+        "Vanguard"
+      ],
+      "image": "the-thing.png",
+      "enabled": true
+    },
+    {
+      "id": "gambit",
+      "name": "Gambit",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "gambit.png",
+      "enabled": true
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "jubilee.png",
+      "enabled": true
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "loki.png",
+      "enabled": true
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "rocket.png",
+      "enabled": true
+    },
+    {
+      "id": "mantis",
+      "name": "Mantis",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "mantis.png",
+      "enabled": true
+    },
+    {
+      "id": "luna-snow",
+      "name": "Luna Snow",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "luna-snow.png",
+      "enabled": true
+    },
+    {
+      "id": "adam-warlock",
+      "name": "Adam Warlock",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "adam-warlock.png",
+      "enabled": true
+    },
+    {
+      "id": "invisible-woman",
+      "name": "Invisible Woman",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "invisible-woman.png",
+      "enabled": true
+    },
+    {
+      "id": "cloak-and-dagger",
+      "name": "Cloak & Dagger",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "cloak-and-dagger.png",
+      "enabled": true
+    },
+    {
+      "id": "jeff-the-land-shark",
+      "name": "Jeff the Land Shark",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "jeff-the-land-shark.png",
+      "enabled": true
+    },
+    {
+      "id": "white-fox",
+      "name": "White Fox",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "White Fox.png",
+      "enabled": true
+    },
+    {
+      "id": "ultron",
+      "name": "Ultron",
+      "roles": [
+        "Strategist"
+      ],
+      "image": "ultron.png",
+      "enabled": true
+    }
+  ]
+}

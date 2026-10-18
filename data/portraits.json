@@ -1,0 +1,218 @@
+{
+  "black-cat": {
+    "local": "./assets/heroes/black-cat.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Black%20Cat.png"
+  },
+  "black-panther": {
+    "local": "./assets/heroes/black-panther.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Black%20Panther.png"
+  },
+  "black-widow": {
+    "local": "./assets/heroes/black-widow.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Black%20Widow.png"
+  },
+  "blade": {
+    "local": "./assets/heroes/blade.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Blade.png"
+  },
+  "cyclops": {
+    "local": "./assets/heroes/cyclops.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Cyclops.png"
+  },
+  "daredevil": {
+    "local": "./assets/heroes/daredevil.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/DareDevil.png"
+  },
+  "deadpool": {
+    "local": "./assets/heroes/deadpool.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/DeadPool.png"
+  },
+  "elsa-bloodstone": {
+    "local": "./assets/heroes/elsa-bloodstone.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Elsa%20Bloodstone.png"
+  },
+  "gorr": {
+    "local": "./assets/heroes/gorr.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Gorr.png"
+  },
+  "hawkeye": {
+    "local": "./assets/heroes/hawkeye.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Hawkeye.png"
+  },
+  "hela": {
+    "local": "./assets/heroes/hela.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Hela.png"
+  },
+  "human-torch": {
+    "local": "./assets/heroes/human-torch.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Human%20Torch.png"
+  },
+  "iron-fist": {
+    "local": "./assets/heroes/iron-fist.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Iron%20Fist.png"
+  },
+  "iron-man": {
+    "local": "./assets/heroes/iron-man.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Iron%20Man.png"
+  },
+  "magik": {
+    "local": "./assets/heroes/magik.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Magik.png"
+  },
+  "mr-fantastic": {
+    "local": "./assets/heroes/mr-fantastic.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Mr%20Fantastic.png"
+  },
+  "moon-knight": {
+    "local": "./assets/heroes/moon-knight.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Moon%20Knight.png"
+  },
+  "namor": {
+    "local": "./assets/heroes/namor.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Namor.png"
+  },
+  "phoenix": {
+    "local": "./assets/heroes/phoenix.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Phoenix.png"
+  },
+  "psylocke": {
+    "local": "./assets/heroes/psylocke.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Psylocke.png"
+  },
+  "scarlet-witch": {
+    "local": "./assets/heroes/scarlet-witch.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Scarlet%20Witch.png"
+  },
+  "spider-man": {
+    "local": "./assets/heroes/spider-man.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Spider-Man.png"
+  },
+  "squirrel-girl": {
+    "local": "./assets/heroes/squirrel-girl.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Squirrel%20Girl.png"
+  },
+  "star-lord": {
+    "local": "./assets/heroes/star-lord.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Star-Lord.png"
+  },
+  "storm": {
+    "local": "./assets/heroes/storm.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Storm.png"
+  },
+  "punisher": {
+    "local": "./assets/heroes/punisher.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Punisher.png"
+  },
+  "winter-soldier": {
+    "local": "./assets/heroes/winter-soldier.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Winter%20Soldier.png"
+  },
+  "wolverine": {
+    "local": "./assets/heroes/wolverine.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Wolverine.png"
+  },
+  "angela": {
+    "local": "./assets/heroes/angela.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Angela.png"
+  },
+  "hulk": {
+    "local": "./assets/heroes/hulk.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Hulk.png"
+  },
+  "captain-america": {
+    "local": "./assets/heroes/captain-america.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Captain%20America.png"
+  },
+  "devil-dino": {
+    "local": "./assets/heroes/devil-dino.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Devil%20Dino.png"
+  },
+  "doctor-strange": {
+    "local": "./assets/heroes/doctor-strange.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Doctor%20Strange.png"
+  },
+  "emma-frost": {
+    "local": "./assets/heroes/emma-frost.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Emma%20Frost.png"
+  },
+  "groot": {
+    "local": "./assets/heroes/groot.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Groot.png"
+  },
+  "magneto": {
+    "local": "./assets/heroes/magneto.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Magneto.png"
+  },
+  "peni-parker": {
+    "local": "./assets/heroes/peni-parker.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Peni%20Parker.png"
+  },
+  "rogue": {
+    "local": "./assets/heroes/rogue.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Rogue.png"
+  },
+  "thor": {
+    "local": "./assets/heroes/thor.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Thor.png"
+  },
+  "the-hood": {
+    "local": "./assets/heroes/the-hood.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/The%20Hood.png"
+  },
+  "venom": {
+    "local": "./assets/heroes/venom.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Venom.png"
+  },
+  "the-thing": {
+    "local": "./assets/heroes/the-thing.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/The%20Thing.png"
+  },
+  "gambit": {
+    "local": "./assets/heroes/gambit.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Gambit.png"
+  },
+  "jubilee": {
+    "local": "./assets/heroes/jubilee.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Jubilee.png"
+  },
+  "loki": {
+    "local": "./assets/heroes/loki.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Loki.png"
+  },
+  "rocket": {
+    "local": "./assets/heroes/rocket.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Rocket.png"
+  },
+  "mantis": {
+    "local": "./assets/heroes/mantis.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Mantis.png"
+  },
+  "luna-snow": {
+    "local": "./assets/heroes/luna-snow.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Luna%20Snow.png"
+  },
+  "adam-warlock": {
+    "local": "./assets/heroes/adam-warlock.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Adam%20Warlock.png"
+  },
+  "invisible-woman": {
+    "local": "./assets/heroes/invisible-woman.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Invisible%20Woman.png"
+  },
+  "cloak-and-dagger": {
+    "local": "./assets/heroes/cloak-and-dagger.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Cloak%20%26%20Dagger.png"
+  },
+  "jeff-the-land-shark": {
+    "local": "./assets/heroes/jeff-the-land-shark.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Jeff%20the%20Land%20Shark.png"
+  },
+  "white-fox": {
+    "local": "./assets/heroes/white-fox.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/White%20Fox.png"
+  },
+  "ultron": {
+    "local": "./assets/heroes/ultron.png",
+    "source": "https://raw.githubusercontent.com/Xman4001/MarvelRivalsRandomizerData/main/images/Ultron.png"
+  }
+}
